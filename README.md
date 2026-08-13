@@ -1,12 +1,12 @@
 # ICON-Spatial-Analysis
 
-**Computational workflows accompanying the study:**
+**Codes accompanying the study:**
 
 > **Integrated spatial multimodal analysis identifies multicellular niches associated with postsurgical recurrence and ctDNA shedding in early-stage non-small cell lung cancer**
 
 ## Overview
 
-**ICON-Spatial** contains the complete computational workflows used to analyze the spatial organization of the tumor microenvironment in early-stage non-small cell lung cancer (NSCLC). The repository integrates multimodal spatial and molecular profiling to identify multicellular niches associated with recurrence, adaptive immune responses, genomic alterations, and circulating tumor DNA (ctDNA) shedding.
+**ICON-Spatial-Analysis** contains the complete computational workflows used to analyze the spatial organization of the tumor microenvironment in early-stage non-small cell lung cancer (NSCLC). The repository integrates multimodal spatial and molecular profiling to identify multicellular niches associated with recurrence, adaptive immune responses, genomic alterations, and circulating tumor DNA (ctDNA) shedding.
 
 The analytical framework combines multiple orthogonal data modalities, including:
 
@@ -26,17 +26,16 @@ Together, these analyses define clinically relevant multicellular spatial niches
 ```
 ICON-Spatial/
 │
-├── CellAnnotation/            # Cell phenotyping and annotation
-├── CellularNeighborhoods/     # Cellular neighborhood (CN) identification
-├── SpatialInteractions/       # Cell-cell interaction analyses
-├── TLS/                       # Tertiary lymphoid structure analyses
-├── NeutrophilHubs/            # Graph-based neutrophil-centered hub analysis
-├── GeoMx/                     # Spatial transcriptomic analyses
-├── BulkRNA/                   # Bulk RNA integration
-├── Genomics/                  # WES and genomic association analyses
-├── TCR/                       # T-cell receptor repertoire analyses
-├── ctDNA/                     # ctDNA association analyses
-├── Figures/                   # Figure generation scripts
+├── Codes/
+│   ├── SpatialInteractions/      # Cell-cell interaction analyses
+│   ├── CellularNeighborhoods/    # Cellular neighborhood (CN) identification
+│   ├── TLS/                      # Tertiary lymphoid structure analyses
+│   ├── GeoMx/                    # GeoMx spatial transcriptomics analyses
+│   ├── BulkRNA/                  # Bulk RNA sequencing analyses
+│   ├── Genomics/                 # Whole-exome sequencing and genomic association analyses
+│   ├── TCR/                      # T-cell receptor repertoire analyses
+│   ├── ctDNA/                    # Circulating tumor DNA analyses
+│   ├── NeutrophilHubs/           # Neutrophil-centered hub analysis
 └── README.md
 ```
 
@@ -46,18 +45,15 @@ ICON-Spatial/
 
 The repository includes workflows for:
 
-- IMC preprocessing and cell type annotation
-- Identification of multicellular cellular neighborhoods (CNs)
 - Spatial interaction analysis
-- CellChat analysis
-- Graph-based neutrophil-centered multicellular hub identification
+- Identification of multicellular cellular neighborhoods (CNs)
+- Tertiary lymphoid structure analyses
 - GeoMx spatial transcriptomic integration
 - Bulk RNA-seq integration
 - Whole-exome sequencing association analyses
 - T-cell receptor repertoire analyses
-- ctDNA association analyses
-- Statistical analyses
-- Figure generation
+- ctDNA analyses
+- Neutrophil-centered multicellular hub identification
 
 ---
 
@@ -70,13 +66,9 @@ Major packages include:
 - SpatialExperiment
 - cytomapper
 - igraph
-- CellChat
 - Seurat
 - edgeR
 - limma
-- data.table
-- ggplot2
-- ComplexHeatmap
 
 ---
 
@@ -86,7 +78,7 @@ If you use this repository, please cite:
 
 > **Integrated spatial multimodal analysis identifies multicellular niches associated with postsurgical recurrence and ctDNA shedding in early-stage non-small cell lung cancer.**
 
-(*Nature Cancer*, in review)
+(*TBD*, in review)
 
 
 Email: muhammadaminu47@gmail.com
