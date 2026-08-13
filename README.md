@@ -6,7 +6,7 @@
 
 ## Overview
 
-**ICON-Spatial-Analysis** contains the complete computational workflows used to analyze the spatial organization of the tumor microenvironment in early-stage non-small cell lung cancer (NSCLC). The repository integrates multimodal spatial and molecular profiling to identify multicellular niches associated with recurrence, adaptive immune responses, genomic alterations, and circulating tumor DNA (ctDNA) shedding.
+**ICON-Spatial-Analysis** contains the computational workflows used to analyze the spatial organization of the tumor microenvironment in early-stage non-small cell lung cancer (NSCLC). The repository integrates multimodal spatial and molecular profiling to identify multicellular niches associated with recurrence, adaptive immune responses, genomic alterations, and circulating tumor DNA (ctDNA) shedding.
 
 The analytical framework combines multiple orthogonal data modalities, including:
 
