@@ -88,14 +88,5 @@ If you use this repository, please cite:
 
 (*Nature Cancer*, in review)
 
----
-
-## Contact
-
-**Muhammad Aminu, Ph.D.**
-
-Department of Imaging Physics
-
-The University of Texas MD Anderson Cancer Center
 
 Email: muhammadaminu47@gmail.com
