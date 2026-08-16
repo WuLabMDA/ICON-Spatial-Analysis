@@ -28,7 +28,7 @@ ICON-Spatial/
 │
 ├── Codes/
 │   ├── Landscape/                      # Cell-cell interaction analyses
-│   ├── Transcriptomic validation/      # GeoMx, Bulk RNA-seq integration
+│   ├── Transcriptomic validation/      # IMC, GeoMx, Bulk RNA-seq integration
 │   ├── Multicellular neighborhoods/    # Cellular neighborhood (CN) identification, TLS analysis
 │   ├── TCR analysis/                   # T-cell receptor repertoire analyses
 │   ├── ctDNA analysis/                 # Circulating tumor DNA analyses, Neutrophil-centered hub analysis
