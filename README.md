@@ -27,15 +27,11 @@ Together, these analyses define clinically relevant multicellular spatial niches
 ICON-Spatial/
 │
 ├── Codes/
-│   ├── SpatialInteractions/      # Cell-cell interaction analyses
-│   ├── CellularNeighborhoods/    # Cellular neighborhood (CN) identification
-│   ├── TLS/                      # Tertiary lymphoid structure analyses
-│   ├── GeoMx/                    # GeoMx spatial transcriptomics analyses
-│   ├── BulkRNA/                  # Bulk RNA sequencing analyses
-│   ├── Genomics/                 # Whole-exome sequencing and genomic association analyses
-│   ├── TCR/                      # T-cell receptor repertoire analyses
-│   ├── ctDNA/                    # Circulating tumor DNA analyses
-│   ├── NeutrophilHubs/           # Neutrophil-centered hub analysis
+│   ├── Landscape/      # Cell-cell interaction analyses
+│   ├── Transcriptomic validation/      # GeoMx, Bulk RNA-seq integration
+│   ├── Multicellular neighborhoods/    # Cellular neighborhood (CN) identification, TLS analysis
+│   ├── TCR analysis/                      # T-cell receptor repertoire analyses
+│   ├── ctDNA analysis/                    # Circulating tumor DNA analyses, Neutrophil-centered hub analysis
 └── README.md
 ```
 
