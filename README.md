@@ -64,7 +64,7 @@ Major packages include:
 - igraph
 - Seurat
 - edgeR
-- limma
+- imcRtools
 
 ---
 
